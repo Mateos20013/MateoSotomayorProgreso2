@@ -1,8 +1,8 @@
 namespace MateoSotomayorProgreso2;
 
-public partial class CGrid : ContentPage
+public partial class Grid : ContentPage
 {
-	public CGrid()
+	public Grid()
 	{
 		InitializeComponent();
 	}

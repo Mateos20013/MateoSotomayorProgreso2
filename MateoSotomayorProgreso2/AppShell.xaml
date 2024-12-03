@@ -7,9 +7,19 @@
     Shell.FlyoutBehavior="Flyout"
     Title="MateoSotomayorProgreso2">
 
-    <ShellContent
-        Title="Home"
-        ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
+    <TabBar>
+        <Tab Title="Recarga">
+            <ShellContent
+            Title="lo"
+            ContentTemplate="{DataTemplate local:Recarga}"
+            Route="Recarga"/>
+        </Tab>
+        <Tab Title="Grid">
+            <ShellContent
+             Title="ww"
+             ContentTemplate="{DataTemplate local:Grid}"
+             Route="Grid"/>
+        </Tab>
 
+    </TabBar>
 </Shell>
